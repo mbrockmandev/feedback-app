@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { useState, useContext, useEffect } from 'react'
 import FeedbackContext from '../context/FeedbackContext'
 
@@ -34,7 +33,5 @@ function RatingSelect({select}) {
     </ul>
   )
 }
-
-RatingSelect.propTypes = {}
 
 export default RatingSelect

@@ -1,9 +1,8 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { FaQuestion } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
-function AboutIconLink(props) {
+function AboutIconLink() {
   return (
     <div className='about-link'>
       <Link to='/about'>
@@ -12,7 +11,5 @@ function AboutIconLink(props) {
     </div>
   )
 }
-
-AboutIconLink.propTypes = {}
 
 export default AboutIconLink

@@ -1,9 +1,8 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Card from '../components/shared/Card'
 import { Link } from 'react-router-dom'
 
-function AboutPage(props) {
+function AboutPage() {
   return (
     <Card>
       <div className='about'>
@@ -17,7 +16,5 @@ function AboutPage(props) {
     </Card>
   )
 }
-
-AboutPage.propTypes = {}
 
 export default AboutPage
